@@ -34,3 +34,9 @@
         opacity: 20% !important;
     }
 }
+#user-settings:before {
+    padding-top: 6.5px;
+}
+.platform-win .standardSidebarView-3F1I7i {
+    top: 30px;
+}
