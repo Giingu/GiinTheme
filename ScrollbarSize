@@ -1,0 +1,11 @@
+.contentRegionScroller-26nc1e::-webkit-scrollbar-track {
+    border-radius: 10px !important;
+    margin-bottom: 30px !important;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    display: initial;
+}
+::-webkit-scrollbar-thumb:hover {
+    border: 3px transparent solid !important;
+}
