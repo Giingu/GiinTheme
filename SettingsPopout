@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1280px) and (min-height: 738px) {
+    #user-settings, #server-settings {
+        border-radius: 10px;
+        width: 1280px;
+        height: 720px;
+        padding-top: 0px;
+        left: calc(calc(100% - 1280px) / 2);
+        top: calc(calc(100% - 720px) / 2);
+    }
+    #user-settings:before {
+        border-radius: 10px;
+        color: var(--text-normal);
+        content: var(--setting-popout-title);
+        font-weight: 600;
+        font-family: var(--setting-popout-font);
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    
+    #server-settings:before {
+        border-radius: 10px;
+        color: var(--text-normal);
+        content: var(--guild-setting-popout-title);
+        font-weight: 600;
+        font-family: var(--setting-popout-font);
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+    .baseLayer-35bLyl.stop-animations, .baseLayer-35bLyl.animating-rRxada {
+        transform: none !important;
+        pointer-events: none;
+    }
+    .baseLayer-35bLyl.stop-animations {
+        opacity: 20% !important;
+    }
+}
