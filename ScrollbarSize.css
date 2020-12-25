@@ -6,6 +6,6 @@
     border-radius: 10px !important;
     display: initial;
 }
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:active {
     border: 3px transparent solid !important;
 }
